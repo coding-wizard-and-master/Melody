@@ -40,7 +40,7 @@ export default function Controls({ currentSong, playPause, setPlayPause, handleN
     }
     console.log(currentSong)
     return (
-        <>4
+        <>
             <ReactPlayer 
                 preload="none" 
                 url={currentSong ?? currentSong} 
